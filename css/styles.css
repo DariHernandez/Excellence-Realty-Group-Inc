@@ -186,6 +186,9 @@ h2 {
   color: #ebebeb;
   font-size: 50px;
 }
+#hero .content-wrapper .content .top-title {
+  color: #ebebeb;
+}
 #hero .content-wrapper .content .btn {
   margin-top: 20px;
 }
