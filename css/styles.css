@@ -81,7 +81,7 @@ h2 {
   color: #6458ff;
 }
 
-img.shadow {
+.shadow {
   box-shadow: 4px 4px 30px -15px #1d1d1b;
 }
 
@@ -303,6 +303,7 @@ img.shadow {
 
 #team {
   margin-top: 100px;
+  margin-bottom: 100px;
   text-align: center;
 }
 #team .cards {
@@ -339,6 +340,134 @@ img.shadow {
 }
 #team .cards .card .info .socials .social {
   padding: 2px;
+}
+
+#footer {
+  position: relative;
+  color: #1d1d1b;
+}
+#footer .bg {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 660px;
+  height: 100%;
+  z-index: -1;
+  background-color: #6458ff;
+}
+#footer .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+#footer .content .form {
+  width: 400px;
+  padding: 100px 0;
+  padding-right: 50px;
+}
+#footer .content .form h2 {
+  color: #1d1d1b;
+}
+#footer .content .form form {
+  color: #1d1d1b;
+  width: 100%;
+}
+#footer .content .form form fieldset {
+  border: none;
+  width: 100%;
+  padding: 0;
+}
+#footer .content .form form input:not(.btn), #footer .content .form form textarea {
+  border: none;
+  border-bottom: 2px solid rgba(29, 29, 27, 0.3);
+  background-color: #ebebeb;
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-top: 30px;
+  font-size: 18px;
+  transition-duration: 0.3s;
+}
+#footer .content .form form input:not(.btn)::placeholder, #footer .content .form form textarea::placeholder {
+  transition-duration: 0.3s;
+  opacity: 0.7;
+}
+#footer .content .form form input:not(.btn):focus, #footer .content .form form textarea:focus {
+  border-bottom: 2px solid rgba(29, 29, 27, 0.7);
+}
+#footer .content .form form input:not(.btn):focus::placeholder, #footer .content .form form textarea:focus::placeholder {
+  opacity: 1;
+}
+#footer .content .form form textarea {
+  resize: vertical;
+  height: 80px;
+}
+#footer .content .form form .btn.blue {
+  margin-top: 30px;
+}
+#footer .content .form small {
+  display: inline-block;
+  font-size: 10px;
+  margin-top: 100px;
+}
+#footer .content .form small a {
+  color: #6458ff;
+}
+#footer .content .map-widgets {
+  width: calc(100% - 450px);
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#footer .content .map-widgets .iframe-wrapper {
+  width: 580px;
+  height: 550px;
+  background-color: #4135e0;
+}
+#footer .content .map-widgets .iframe-wrapper iframe {
+  width: 100%;
+  height: 100%;
+}
+#footer .content .map-widgets .widgets {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+#footer .content .map-widgets .widgets .widget .header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#footer .content .map-widgets .widgets .widget .header svg {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+#footer .content .map-widgets .widgets .widget .header svg use {
+  fill: #ebebeb;
+}
+#footer .content .map-widgets .widgets .widget .header h3 {
+  margin: 0;
+  color: #ebebeb;
+}
+#footer .content .map-widgets .widgets .widget .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#footer .content .map-widgets .widgets .widget .content a, #footer .content .map-widgets .widgets .widget .content p {
+  color: #1d1d1b;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  text-align: left;
+  color: #ebebeb;
+  padding: 5px;
+  transition-duration: 0.3s;
+}
+#footer .content .map-widgets .widgets .widget .content a:hover {
+  opacity: 0.5;
 }
 
 /*# sourceMappingURL=styles.css.map */
