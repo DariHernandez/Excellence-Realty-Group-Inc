@@ -1,0 +1,63 @@
+#services
+    position: relative
+    color: $color-c
+
+    .bg
+        position: absolute
+        right: 0
+        top: 0
+        width: calc(1250px  - 700px - 50px)
+        height: 100%
+        z-index: -1
+        background-color: $color-a
+
+    .content
+        display: flex
+        align-items: center
+        justify-content: center
+        height: 100%
+
+        .text
+            width: calc(700px - 50px)
+            padding: 100px 0
+            padding-right: 50px
+
+            h2
+                color: $color-c
+
+            p.top-title
+                color: $color-a
+
+            .grid.services-card
+                display: grid
+                grid-template-columns: repeat(2, 1fr)
+                margin-top: 50px
+
+                .service
+                    padding: 20px
+                    display: flex
+                    flex-direction: column
+
+                    .decorator
+                        width: 20px
+                        height: 25px
+                        border: 2px solid $color-a
+
+                    .name 
+                        display: flex
+                        align-items: center
+                        justify-content: flex-start
+                        
+                        .line
+                            width: 40px
+                            height: 5px
+                            border-bottom: 2px solid $color-a
+                            margin-right: 20px
+
+        .image-wrapper
+            width: calc(100% - 700px)
+
+            img
+                width: 100%
+                height: auto
+                margin-top: 150px

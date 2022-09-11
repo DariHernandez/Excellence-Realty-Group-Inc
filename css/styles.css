@@ -58,6 +58,10 @@ h1, h2, h3, h4, h5, h6, .title {
   margin: 25px 0;
 }
 
+h2 {
+  font-size: 50px;
+}
+
 *:focus {
   outline: none;
 }
@@ -189,7 +193,7 @@ img.shadow {
   top: 0;
   width: calc((100% - 1250px) / 2 + 550px + 100px);
   height: 100%;
-  z-index: -2;
+  z-index: -1;
   background-color: #1d1d1b;
 }
 #about .content {
@@ -203,7 +207,6 @@ img.shadow {
   padding-right: 50px;
 }
 #about .content .text h2 {
-  font-size: 50px;
   color: #6458ff;
 }
 #about .content .text p.top-title {
@@ -215,6 +218,71 @@ img.shadow {
 #about .content .image-wrapper img {
   width: 100%;
   height: auto;
+}
+
+#services {
+  position: relative;
+  color: #1d1d1b;
+}
+#services .bg {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 500px;
+  height: 100%;
+  z-index: -1;
+  background-color: #6458ff;
+}
+#services .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+#services .content .text {
+  width: 650px;
+  padding: 100px 0;
+  padding-right: 50px;
+}
+#services .content .text h2 {
+  color: #1d1d1b;
+}
+#services .content .text p.top-title {
+  color: #6458ff;
+}
+#services .content .text .grid.services-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 50px;
+}
+#services .content .text .grid.services-card .service {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+#services .content .text .grid.services-card .service .decorator {
+  width: 20px;
+  height: 25px;
+  border: 2px solid #6458ff;
+}
+#services .content .text .grid.services-card .service .name {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#services .content .text .grid.services-card .service .name .line {
+  width: 40px;
+  height: 5px;
+  border-bottom: 2px solid #6458ff;
+  margin-right: 20px;
+}
+#services .content .image-wrapper {
+  width: calc(100% - 700px);
+}
+#services .content .image-wrapper img {
+  width: 100%;
+  height: auto;
+  margin-top: 150px;
 }
 
 /*# sourceMappingURL=styles.css.map */
