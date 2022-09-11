@@ -110,7 +110,7 @@ img.shadow {
   display: inline-block;
   padding: 15px 30px;
   font-weight: bold;
-  box-shadow: 4px 4px 6px 0px #4135e0;
+  box-shadow: 5px 5px 20px -6px rgba(29, 29, 27, 0.5);
   border: none;
   transition-duration: 0.3s;
   font-size: 12px;
@@ -124,7 +124,7 @@ img.shadow {
   color: #ebebeb;
 }
 .btn:hover {
-  box-shadow: 4px 4px 6px 4px #4135e0;
+  box-shadow: 5px 5px 20px -6px #1d1d1b;
 }
 
 ::-webkit-scrollbar {
