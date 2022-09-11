@@ -1,7 +1,7 @@
-$color_a: #fff
-$color_b: #fff
-$color_c: #fff
-$color_d: #fff
+$color-a: #6458ff
+$color-b: #ebebeb
+$color-c: #1d1d1b
+$color-d: #4135e0
 $transition-duration: 0.3s
     
 html
@@ -12,9 +12,9 @@ html
 body
     margin: 0
     padding: 0
-    background-color: $color-d
-    font-family: 'regular-font', sans-serif
-    background-color: black
+    background-color: $color-b
+    font-family: 'Montserrat', sans-serif
+    color: $color-b
 
 .wrapper-img
     margin: 0
@@ -40,10 +40,10 @@ p
 
 a
     text-decoration: none
-    color: $color_a
+    color: $color-b
 
 .regular-width
-    max-width: 1000px
+    max-width: 1250px
     margin: 0 auto
 
 .full-width
@@ -51,8 +51,8 @@ a
     margin: 0 auto
 
 h1, h2, h3, h4, h5, h6, .title
-    font-family: 'title-font', cursive
-    color: $color-b
+    font-family: 'Lora', serif
+    color: $color-c
 
 *:focus
     outline: none
@@ -63,3 +63,8 @@ h1, h2, h3, h4, h5, h6, .title
     background-repeat: no-repeat
     background-size: cover
     height: 600px
+
+.top-title
+    font-size: 14px
+    text-transform: uppercase
+    font-style: italic

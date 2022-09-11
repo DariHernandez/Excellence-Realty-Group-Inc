@@ -7,9 +7,9 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #fff;
-  font-family: "regular-font", sans-serif;
-  background-color: black;
+  background-color: #ebebeb;
+  font-family: "Montserrat", sans-serif;
+  color: #ebebeb;
 }
 
 .wrapper-img {
@@ -39,11 +39,11 @@ p.small {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #ebebeb;
 }
 
 .regular-width {
-  max-width: 1000px;
+  max-width: 1250px;
   margin: 0 auto;
 }
 
@@ -53,8 +53,8 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6, .title {
-  font-family: "title-font", cursive;
-  color: #fff;
+  font-family: "Lora", serif;
+  color: #1d1d1b;
 }
 
 *:focus {
@@ -69,8 +69,31 @@ h1, h2, h3, h4, h5, h6, .title {
   height: 600px;
 }
 
+.top-title {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
 .btn {
   display: inline-block;
+  padding: 15px 30px;
+  font-weight: bold;
+  box-shadow: 4px 4px 6px 0px #4135e0;
+  border: none;
+  transition-duration: 0.3s;
+  font-size: 12px;
+}
+.btn.white {
+  background-color: #ebebeb;
+  color: #1d1d1b;
+}
+.btn.blue {
+  background-color: #6458ff;
+  color: #ebebeb;
+}
+.btn:hover {
+  box-shadow: 4px 4px 6px 4px #4135e0;
 }
 
 #header {
@@ -110,6 +133,43 @@ h1, h2, h3, h4, h5, h6, .title {
 }
 #header .socials .social svg path {
   fill: white;
+}
+
+#hero {
+  height: 100vh;
+  background-color: #6458ff;
+  position: relative;
+}
+#hero .content-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#hero .content-wrapper .content {
+  display: inline-block;
+  width: 500px;
+}
+#hero .content-wrapper .content h1 {
+  color: #ebebeb;
+  font-size: 50px;
+  margin: 25px 0;
+}
+#hero .content-wrapper .content .btn {
+  margin-top: 20px;
+}
+#hero .image {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: red;
+  display: inline-block;
+  width: calc(100% - 500px - (100% - 1250px) / 2);
+  height: 100%;
+  background-image: url("../imgs/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 /*# sourceMappingURL=styles.css.map */

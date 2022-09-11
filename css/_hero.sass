@@ -1,0 +1,35 @@
+#hero
+    height: 100vh
+    background-color: $color-a
+    position: relative
+
+    .content-wrapper
+        height: 100%
+        display: flex
+        align-items: center
+        justify-content: flex-start
+
+        .content
+            display: inline-block
+            width: 500px
+
+            h1
+                color: $color-b
+                font-size: 50px
+                margin: 25px 0
+
+            .btn
+                margin-top: 20px
+
+    .image
+        position: absolute
+        right: 0
+        top: 0
+        background-color: red
+        display: inline-block
+        width: calc(100% - 500px - (100% - 1250px)/2)
+        height: 100%
+        background-image: url("../imgs/hero.jpg")
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: center center
