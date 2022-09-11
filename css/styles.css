@@ -78,10 +78,32 @@ h2 {
   font-size: 14px;
   text-transform: uppercase;
   font-style: italic;
+  color: #6458ff;
 }
 
 img.shadow {
   box-shadow: 4px 4px 30px -15px #1d1d1b;
+}
+
+.socials .social {
+  display: inline-block;
+  padding: 10px;
+}
+.socials .social svg {
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  margin: 0 auto;
+}
+.socials .social svg use {
+  fill: #ebebeb;
+}
+
+.logo, .social {
+  transition-duration: 0.3s;
+}
+.logo:hover, .social:hover {
+  opacity: 0.7;
 }
 
 .btn {
@@ -125,12 +147,6 @@ img.shadow {
   position: relative;
   z-index: 1;
 }
-#header a {
-  transition-duration: 0.3s;
-}
-#header a:hover {
-  opacity: 0.7;
-}
 #header .logo {
   position: absolute;
   left: 0;
@@ -147,19 +163,6 @@ img.shadow {
   top: 0;
   padding: 10px;
   background-color: #6458ff;
-}
-#header .socials .social {
-  display: inline-block;
-  padding: 10px;
-}
-#header .socials .social svg {
-  width: 15px;
-  height: 15px;
-  text-align: center;
-  margin: 0 auto;
-}
-#header .socials .social svg path {
-  fill: white;
 }
 
 #hero {
@@ -263,9 +266,6 @@ img.shadow {
 #services .content .text h2 {
   color: #1d1d1b;
 }
-#services .content .text p.top-title {
-  color: #6458ff;
-}
 #services .content .text .grid.services-card {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -299,6 +299,46 @@ img.shadow {
   width: 100%;
   height: auto;
   margin-top: 150px;
+}
+
+#team {
+  margin-top: 100px;
+  text-align: center;
+}
+#team .cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+#team .cards .card {
+  display: flex;
+  flex-direction: column;
+}
+#team .cards .card img {
+  width: 100%;
+  height: auto;
+}
+#team .cards .card .info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 15px;
+  background-color: #6458ff;
+  color: #ebebeb;
+}
+#team .cards .card .info .name {
+  text-align: left;
+}
+#team .cards .card .info .name h3 {
+  margin: 0;
+  margin-bottom: 8px;
+  color: #ebebeb;
+}
+#team .cards .card .info .name p {
+  margin: 0;
+}
+#team .cards .card .info .socials .social {
+  padding: 2px;
 }
 
 /*# sourceMappingURL=styles.css.map */

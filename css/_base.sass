@@ -72,6 +72,29 @@ h2
     font-size: 14px
     text-transform: uppercase
     font-style: italic
+    color: $color-a
 
 img.shadow
     box-shadow: 4px 4px 30px -15px $color-c
+
+.socials
+    .social
+
+        display: inline-block
+        padding: 10px
+
+        svg
+            width: 15px
+            height: 15px
+            text-align: center
+            margin: 0 auto
+
+            use
+                fill: $color-b
+
+
+.logo, .social
+    transition-duration: $transition-duration
+
+    &:hover
+        opacity: 0.7
