@@ -55,6 +55,7 @@ a {
 h1, h2, h3, h4, h5, h6, .title {
   font-family: "Lora", serif;
   color: #1d1d1b;
+  margin: 25px 0;
 }
 
 *:focus {
@@ -73,6 +74,10 @@ h1, h2, h3, h4, h5, h6, .title {
   font-size: 14px;
   text-transform: uppercase;
   font-style: italic;
+}
+
+img.shadow {
+  box-shadow: 4px 4px 30px -15px #1d1d1b;
 }
 
 .btn {
@@ -139,6 +144,8 @@ h1, h2, h3, h4, h5, h6, .title {
 
 #hero {
   height: 100vh;
+  min-height: 600px;
+  max-height: 1100px;
   background-color: #6458ff;
   position: relative;
 }
@@ -155,7 +162,6 @@ h1, h2, h3, h4, h5, h6, .title {
 #hero .content-wrapper .content h1 {
   color: #ebebeb;
   font-size: 50px;
-  margin: 25px 0;
 }
 #hero .content-wrapper .content .btn {
   margin-top: 20px;
@@ -164,7 +170,6 @@ h1, h2, h3, h4, h5, h6, .title {
   position: absolute;
   right: 0;
   top: 0;
-  background-color: red;
   display: inline-block;
   width: calc(100% - 500px - (100% - 1250px) / 2);
   height: 100%;
@@ -172,6 +177,44 @@ h1, h2, h3, h4, h5, h6, .title {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+
+#about {
+  height: 700px;
+  position: relative;
+}
+#about .bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: calc((100% - 1250px) / 2 + 550px + 100px);
+  height: 100%;
+  z-index: -2;
+  background-color: #1d1d1b;
+}
+#about .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+#about .content .text {
+  width: 500px;
+  padding-right: 50px;
+}
+#about .content .text h2 {
+  font-size: 50px;
+  color: #6458ff;
+}
+#about .content .text p.top-title {
+  color: #6458ff;
+}
+#about .content .image-wrapper {
+  width: calc(100% - 550px);
+}
+#about .content .image-wrapper img {
+  width: 100%;
+  height: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */

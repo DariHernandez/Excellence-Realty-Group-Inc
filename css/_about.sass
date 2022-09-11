@@ -1,0 +1,37 @@
+#about
+    height: 700px
+    position: relative
+
+    .bg
+        position: absolute
+        left: 0
+        top: 0
+        width: calc((100% - 1250px)/2 + 550px + 100px)
+        height: 100%
+        z-index: -2
+        background-color: $color-c
+
+    .content
+        display: flex
+        align-items: center
+        justify-content: center
+        height: 100%
+
+        .text
+            width: calc(550px - 50px)
+            padding-right: 50px
+        
+
+            h2
+                font-size: 50px
+                color: $color-a
+
+            p.top-title
+                color: $color-a
+
+        .image-wrapper
+            width: calc(100% - 550px)
+
+            img
+                width: 100%
+                height: auto
