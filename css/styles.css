@@ -105,6 +105,22 @@ img.shadow {
   box-shadow: 4px 4px 6px 4px #4135e0;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ebebeb;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6458ff;
+  margin-top: -5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1d1d1b;
+}
+
 #header {
   position: relative;
   z-index: 1;
