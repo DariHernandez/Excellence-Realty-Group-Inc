@@ -36,3 +36,36 @@
         background-repeat: no-repeat
         background-size: cover
         background-position: center center
+
+    @media screen and (max-width: $regular-width-media-query)
+        .image
+            width: calc(60% - 50px)
+
+        .content-wrapper .content
+            width: 40%
+
+    @media screen and (max-width: 750px)
+        .content-wrapper
+            align-items: flex-start
+
+            .content
+                width: 100%
+                text-align: center
+                margin-top: 100px
+        
+        .image
+            position: absolute
+            bottom: 0
+            top: initial
+            left: 0
+            right: 0
+            width: 100%
+            height: calc(100% - 500px)
+
+    @media screen and (max-width: 440px)
+        .image
+            height: calc(100% - 600px)
+
+        
+
+        

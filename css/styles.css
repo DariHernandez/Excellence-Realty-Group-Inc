@@ -216,6 +216,38 @@ h2 {
   background-size: cover;
   background-position: center center;
 }
+@media screen and (max-width: 1300px) {
+  #hero .image {
+    width: calc(60% - 50px);
+  }
+  #hero .content-wrapper .content {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 750px) {
+  #hero .content-wrapper {
+    align-items: flex-start;
+  }
+  #hero .content-wrapper .content {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+  }
+  #hero .image {
+    position: absolute;
+    bottom: 0;
+    top: initial;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: calc(100% - 500px);
+  }
+}
+@media screen and (max-width: 440px) {
+  #hero .image {
+    height: calc(100% - 600px);
+  }
+}
 
 #about {
   height: 750px;
