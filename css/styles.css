@@ -317,21 +317,23 @@ h2 {
   }
   #about .content .image-wrapper {
     width: 100%;
+    transform: translateY(10px);
   }
 }
 
 #services {
   position: relative;
   color: #1d1d1b;
+  background-color: #4135e0;
 }
 #services .bg {
   position: absolute;
-  right: 0;
+  left: 0;
   top: 0;
-  width: 500px;
+  width: calc((100% - 1250px) / 2 + 950px);
   height: 100%;
-  z-index: -1;
-  background-color: #b675eb;
+  z-index: 0;
+  background-color: #ebebeb;
 }
 #services .content {
   display: flex;
@@ -341,7 +343,7 @@ h2 {
 }
 #services .content .text {
   width: 650px;
-  padding: 100px 0;
+  padding: 150px 0;
   padding-right: 50px;
 }
 #services .content .text h2 {
@@ -350,35 +352,39 @@ h2 {
 #services .content .text p.top-title {
   color: #b675eb;
 }
-#services .content .text .grid.services-card {
+#services .content .text .grid.services-cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-top: 50px;
+  gap: 20px;
 }
-#services .content .text .grid.services-card .service {
-  padding: 20px;
+#services .content .text .grid.services-cards .service {
   display: flex;
   flex-direction: column;
 }
-#services .content .text .grid.services-card .service:last-child {
+#services .content .text .grid.services-cards .service:last-child {
   grid-column-start: 1;
   grid-column-end: 3;
 }
-#services .content .text .grid.services-card .service .decorator {
+#services .content .text .grid.services-cards .service .decorator {
   width: 20px;
   height: 25px;
   border: 2px solid #b675eb;
 }
-#services .content .text .grid.services-card .service .name {
+#services .content .text .grid.services-cards .service .name {
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
-#services .content .text .grid.services-card .service .name .line {
+#services .content .text .grid.services-cards .service .name .line {
   width: 40px;
   height: 5px;
   border-bottom: 2px solid #b675eb;
   margin-right: 20px;
+}
+#services .content .text .grid.services-cards .service .name h3 {
+  width: calc(100% - 40px);
+  display: inline-block;
 }
 #services .content .image-wrapper {
   width: calc(100% - 700px);
@@ -387,6 +393,33 @@ h2 {
   width: 100%;
   height: auto;
   margin-top: 150px;
+}
+@media screen and (max-width: 1300px) {
+  #services .bg {
+    width: 95%;
+  }
+  #services .content .image-wrapper {
+    display: none;
+  }
+  #services .content .text {
+    width: 90%;
+    padding-right: 0;
+  }
+  #services .content .text .grid.services-cards {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 550px) {
+  #services .content .text .grid.services-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #services .content .text .grid.services-cards .service:last-child {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  #services .content .text .grid.services-cards .service .decorator {
+    display: none;
+  }
 }
 
 #team {

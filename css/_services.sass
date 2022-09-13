@@ -1,15 +1,16 @@
 #services
     position: relative
     color: $color-c
+    background-color: $color-d
 
     .bg
         position: absolute
-        right: 0
+        left: 0
         top: 0
-        width: calc(1250px  - 700px - 50px)
+        width: calc((100% - 1250px) / 2 + 950px)
         height: 100%
-        z-index: -1
-        background-color: $color-e
+        z-index: 0
+        background-color: $color-b
 
     .content
         display: flex
@@ -19,7 +20,7 @@
 
         .text
             width: calc(700px - 50px)
-            padding: 100px 0
+            padding: 150px 0
             padding-right: 50px
 
             h2
@@ -28,13 +29,13 @@
             p.top-title
                 color: $color-e
 
-            .grid.services-card
+            .grid.services-cards
                 display: grid
                 grid-template-columns: repeat(2, 1fr)
                 margin-top: 50px
+                gap: 20px
 
                 .service
-                    padding: 20px
                     display: flex
                     flex-direction: column
 
@@ -58,6 +59,10 @@
                             border-bottom: 2px solid $color-e
                             margin-right: 20px
 
+                        h3
+                            width: calc(100% - 40px)
+                            display: inline-block
+
         .image-wrapper
             width: calc(100% - 700px)
 
@@ -65,3 +70,30 @@
                 width: 100%
                 height: auto
                 margin-top: 150px
+
+    @media screen and (max-width: $regular-width-media-query)
+        .bg
+            width: 95%
+
+        .content
+
+            .image-wrapper
+                display: none
+
+            .text
+                width: 90%
+                padding-right: 0
+
+                .grid.services-cards 
+                    width: 100%
+
+    @media screen and (max-width: 550px)
+        .content .text .grid.services-cards 
+            grid-template-columns: repeat(1, 1fr)
+
+            .service:last-child
+                grid-column-start: 1
+                grid-column-end: 2
+
+            .service .decorator
+                display: none
