@@ -288,6 +288,37 @@ h2 {
   width: 100%;
   height: auto;
 }
+@media screen and (max-width: 1300px) {
+  #about .content {
+    justify-content: flex-start;
+  }
+  #about .content .text {
+    width: 40%;
+  }
+  #about .content .image-wrapper {
+    width: calc(60% - 20px);
+  }
+}
+@media screen and (max-width: 900px) {
+  #about {
+    height: auto;
+  }
+  #about .bg {
+    width: 100%;
+  }
+  #about .content {
+    flex-direction: column;
+  }
+  #about .content .text {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  #about .content .image-wrapper {
+    width: 100%;
+  }
+}
 
 #services {
   position: relative;

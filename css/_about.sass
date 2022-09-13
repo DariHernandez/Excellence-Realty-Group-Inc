@@ -37,3 +37,32 @@
             img
                 width: 100%
                 height: auto
+
+    @media screen and (max-width: $regular-width-media-query)
+        .content 
+            justify-content: flex-start
+
+            .text
+                width: calc(40%)
+
+            .image-wrapper
+                width: calc(100% - 40% - 20px)
+
+    @media screen and (max-width: 900px)
+        height: auto
+
+        .bg
+            width: 100%
+
+        .content 
+            flex-direction: column
+
+            .text
+                width: calc(100%)
+                padding: 0
+                margin-bottom: 50px
+                margin-top: 50px
+
+            .image-wrapper
+                width: 100%
+
