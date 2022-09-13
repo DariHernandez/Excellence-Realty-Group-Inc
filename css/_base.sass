@@ -4,6 +4,8 @@ $color-c: #1d1d1b
 $color-d: #4135e0
 $color-e: #b675eb
 $transition-duration: 0.3s
+$regular-width: 1250px
+$regular-width-media-query: $regular-width + 50px
     
 html
     margin: 0
@@ -44,8 +46,12 @@ a
     color: $color-b
 
 .regular-width
-    max-width: 1250px
+    max-width: $regular-width
     margin: 0 auto
+
+    @media screen and (max-width: $regular-width-media-query)
+        padding: 0 5%
+        width: 90%
 
 .full-width
     max-width: 100%

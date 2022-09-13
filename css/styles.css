@@ -46,6 +46,12 @@ a {
   max-width: 1250px;
   margin: 0 auto;
 }
+@media screen and (max-width: 1300px) {
+  .regular-width {
+    padding: 0 5%;
+    width: 90%;
+  }
+}
 
 .full-width {
   max-width: 100%;
@@ -152,6 +158,7 @@ h2 {
   left: 0;
   top: 0;
   padding: 15px;
+  padding-left: 0;
 }
 #header .logo img {
   width: 100px;
@@ -163,6 +170,11 @@ h2 {
   top: 0;
   padding: 10px;
   background-color: #b675eb;
+}
+@media screen and (max-width: 1300px) {
+  #header .logo {
+    padding-left: 5%;
+  }
 }
 
 #hero {
