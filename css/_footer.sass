@@ -9,7 +9,7 @@
         width: calc(1250px  - 540px - 50px)
         height: 100%
         z-index: -1
-        background-color: $color-a
+        background-color: $color-e
 
     .content
         display: flex
@@ -19,7 +19,8 @@
 
         .form
             width: calc(450px - 50px)
-            padding: 100px 0
+            padding-top: 100px
+            padding-bottom: 50px
             padding-right: 50px
 
             h2
@@ -61,15 +62,6 @@
 
                 .btn.blue
                     margin-top: 30px
-
-            small
-                display: inline-block
-                font-size: 10px
-                margin-top: 100px
-
-                a
-                    color: $color-a
-
 
         .map-widgets
             width: calc(100% - 450px)
@@ -128,5 +120,27 @@
                         a:hover
                             opacity: 0.5
 
-                    
+    .bottom-bar
+        display: flex
+        align-items: flex-end
+        justify-content: space-between
+        margin: 0 auto
+        margin-top: -60px
+        padding-bottom: 10px
 
+        small
+            display: inline-block
+            font-size: 10px
+            margin-top: 100px
+
+            a
+                color: $color-e
+
+        .legal-logo 
+            width: 50px
+            height: auto
+            margin: 0
+            
+            img
+                width: 100%
+                height: auto

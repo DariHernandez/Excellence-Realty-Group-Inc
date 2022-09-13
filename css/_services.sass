@@ -9,7 +9,7 @@
         width: calc(1250px  - 700px - 50px)
         height: 100%
         z-index: -1
-        background-color: $color-a
+        background-color: $color-e
 
     .content
         display: flex
@@ -25,6 +25,9 @@
             h2
                 color: $color-c
 
+            p.top-title
+                color: $color-e
+
             .grid.services-card
                 display: grid
                 grid-template-columns: repeat(2, 1fr)
@@ -35,10 +38,14 @@
                     display: flex
                     flex-direction: column
 
+                    &:last-child
+                        grid-column-start: 1
+                        grid-column-end: 3
+
                     .decorator
                         width: 20px
                         height: 25px
-                        border: 2px solid $color-a
+                        border: 2px solid $color-e
 
                     .name 
                         display: flex
@@ -48,7 +55,7 @@
                         .line
                             width: 40px
                             height: 5px
-                            border-bottom: 2px solid $color-a
+                            border-bottom: 2px solid $color-e
                             margin-right: 20px
 
         .image-wrapper
