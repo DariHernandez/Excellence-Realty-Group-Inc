@@ -11,7 +11,3 @@ window.onload = async function () {
     const thanks_altert = show_alert()
     update_form_redirect ()
 }
-
-window.onresize = function() {
-    console.log ("Resize")
-}
