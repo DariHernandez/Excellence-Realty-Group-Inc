@@ -325,6 +325,7 @@ h2 {
   position: relative;
   color: #1d1d1b;
   background-color: #4135e0;
+  padding-bottom: 100px;
 }
 #services .bg {
   position: absolute;
@@ -395,6 +396,9 @@ h2 {
   margin-top: 150px;
 }
 @media screen and (max-width: 1300px) {
+  #services {
+    padding-bottom: 0;
+  }
   #services .bg {
     width: 95%;
   }
