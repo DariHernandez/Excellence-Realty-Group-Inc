@@ -244,6 +244,9 @@ h2 {
   }
 }
 @media screen and (max-width: 440px) {
+  #hero {
+    height: 900px;
+  }
   #hero .image {
     height: calc(100% - 600px);
   }
