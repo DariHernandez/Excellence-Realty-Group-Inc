@@ -59,14 +59,6 @@ Mobile
 
 
 
-
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 ### Built With
 <a href="https://developer.mozilla.org/es/docs/Web/HTML">
   <img src="https://cdn.svgporn.com/logos/html-5.svg" width="50" alt="html5" title="html5">
@@ -92,7 +84,6 @@ Mobile
   <img src="https://cdn.svgporn.com/logos/sass.svg" width="50" alt="sass" title="sass">
 </a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -104,15 +95,11 @@ Mobile
 - [x] Client's domain
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -122,8 +109,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Dari Developer - darideveloper@gmail.com
 
 Project Link: [https://github.com/darideveloper/Nayipzi-Gutierrez-Broker](https://github.com/darideveloper/Nayipzi-Gutierrez-Broker)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -139,3 +124,5 @@ Project Link: [https://github.com/darideveloper/Nayipzi-Gutierrez-Broker](https:
 [fiverr-shield]: https://img.shields.io/badge/-fiverr-black.svg?style=for-the-badge&logo=fiverr&colorB=555&logoColor=white
 [gmail-url]: mailto:darideveloper@gmail.com
 [fiverr-url]: https://www.fiverr.com/darideveloper
+
+<span>Last code update: <time datetime="2022-09-14" class="last-update">2022-09-14</time>
