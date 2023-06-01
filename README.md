@@ -51,10 +51,10 @@ Landing page to promote Nayipzi's work (Real Estate Agent), with responsive, con
 
 # Roadmap
 
-- [x] Desktop\r
-- [x] Mobile\r
-- [x] Animations\r
-- [x] Contact form\r
+- [x] Desktop
+- [x] Mobile
+- [x] Animations
+- [x] Contact form
 - [x] Client's domain
 
 
