@@ -1,128 +1,60 @@
-<a name="readme-top"></a>
+<div><a href='https://github.com/github.com/darideveloper/blob/master/LICENSE' target='_blank'>
+            <img src='https://img.shields.io/github/license/github.com/darideveloper.svg?style=for-the-badge' alt='MIT License' height='30px'/>
+        </a><a href='https://www.linkedin.com/in/francisco-dari-hernandez-6456b6181/' target='_blank'>
+                <img src='https://img.shields.io/static/v1?style=for-the-badge&message=LinkedIn&color=0A66C2&logo=LinkedIn&logoColor=FFFFFF&label=' alt='Linkedin' height='30px'/>
+            </a><a href='https://t.me/darideveloper' target='_blank'>
+                <img src='https://img.shields.io/static/v1?style=for-the-badge&message=Telegram&color=26A5E4&logo=Telegram&logoColor=FFFFFF&label=' alt='Telegram' height='30px'/>
+            </a><a href='https://github.com/darideveloper' target='_blank'>
+                <img src='https://img.shields.io/static/v1?style=for-the-badge&message=GitHub&color=181717&logo=GitHub&logoColor=FFFFFF&label=' alt='Github' height='30px'/>
+            </a><a href='https://www.fiverr.com/darideveloper?up_rollout=true' target='_blank'>
+                <img src='https://img.shields.io/static/v1?style=for-the-badge&message=Fiverr&color=222222&logo=Fiverr&logoColor=1DBF73&label=' alt='Fiverr' height='30px'/>
+            </a><a href='https://discord.com/users/992019836811083826' target='_blank'>
+                <img src='https://img.shields.io/static/v1?style=for-the-badge&message=Discord&color=5865F2&logo=Discord&logoColor=FFFFFF&label=' alt='Discord' height='30px'/>
+            </a><a href='mailto:darideveloper@gmail.com?subject=Hello Dari Developer' target='_blank'>
+                <img src='https://img.shields.io/static/v1?style=for-the-badge&message=Gmail&color=EA4335&logo=Gmail&logoColor=FFFFFF&label=' alt='Gmail' height='30px'/>
+            </a></div><div align='center'><br><br><img src='https://github.com/darideveloper/Nayipzi-Gutierrez-Broker/raw/master/imgs/logo.png' alt='Nayipzi Gutierrez Broker' height='80px'/>
 
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-[![Fiverr][fiverr-shield]][fiverr-url]
-[![Gmail][gmail-shield]][gmail-url]
+# Nayipzi Gutierrez Broker
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/darideveloper/Nayipzi-Gutierrez-Broker">
-    <img src="./imgs/logo.png" alt="Logo" width="80" height="80">
-  </a>
+Visit at: **[excellencerealtygroup.miami](https://www.excellencerealtygroup.miami/)**
 
-  <h3 align="center">Nayipzi Gutierrez Broker | Excellence Realty Group Inc</h3>
+Landing page with contact forms an animations, based in the design of [Mahmudul Manik](https://www.behance.net/gallery/105051993/Edge_One-landing-page?tracking_source=search_projects%7Clanding%20page%20)
 
-  <p align="center">
-    Landing page with contact forms an animations, based in the design of <a href="https://www.behance.net/gallery/105051993/Edge_One-landing-page?tracking_source=search_projects%7Clanding%20page%20">Mahmudul Manik</a> <br />
-    <br />
-    <a href="https://darideveloper.github.io/Nayipzi-Gutierrez-Broker/">Visit Web Page</a>
-    ·
-    <a href="https://github.com/darideveloper/Nayipzi-Gutierrez-Broker/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/darideveloper/Nayipzi-Gutierrez-Broker/issues">Request Feature</a>
-  </p>
-</div>
+Start date: **2022-09-11**
 
+Last update: **2023-05-10**
 
+Project type: **client's project**
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
+</div><br><details>
+            <summary>Table of Contents</summary>
+            <ol>
+<li><a href='#buildwith'>Build With</a></li>
+<li><a href='#media'>Media</a></li>
+<li><a href='#details'>Details</a></li>
+<li><a href='#roadmap'>Roadmap</a></li></ol>
+        </details><br>
 
+# Build with
 
+<div align='center'><a href='https://developer.mozilla.org/en-US/docs/Web/HTML' target='_blank'> <img src='https://i.imgur.com/OitgDfl.jpeg' alt='HTML + CSS' title='HTML + CSS' height='50px'/> </a><a href='https://sass-lang.com/' target='_blank'> <img src='https://cdn.svgporn.com/logos/sass.svg' alt='Sass' title='Sass' height='50px'/> </a><a href='https://animejs.com/' target='_blank'> <img src='https://animejs.com/documentation/assets/img/anime-mini-logo.svg' alt='AnimeJS' title='AnimeJS' height='50px'/> </a><a href='https://www.w3schools.com/js/js_es6.asp' target='_blank'> <img src='https://cdn.svgporn.com/logos/javascript.svg' alt='JavaScript' title='JavaScript' height='50px'/> </a><a href='https://sweetalert2.github.io/' target='_blank'> <img src='https://github.com/sweetalert2/sweetalert2/raw/main/assets/swal2-logo.png' alt='Sweet Alert 2' title='Sweet Alert 2' height='50px'/> </a><a href='https://michalsnik.github.io/aos/' target='_blank'> <img src='https://raw.githubusercontent.com/DariHernandez/DariHernandez/main/imgs/aos.svg' alt='AOS' title='AOS' height='50px'/> </a></div>
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+# Media
 
-Desktop
+![desktop](https://github.com/darideveloper/Nayipzi-Gutierrez-Broker/raw/master/imgs/screenshot-desktop.gif)
 
-[![Web page Screen Shot Desktop][product-screenshot-desktop]](https://darideveloper.github.io/Nayipzi-Gutierrez-Broker/)
+![mobile](https://github.com/darideveloper/Nayipzi-Gutierrez-Broker/raw/master/imgs/screenshot-mobile.gif)
 
-Mobile
+# Details
 
-[![Web page Screen Shot Mobile][product-screenshot-mobile]](https://darideveloper.github.io/Nayipzi-Gutierrez-Broker/)
+Landing page to promote Nayipzi's work (Real Estate Agent), with responsive, contact form, scroll animation, etc.
 
+# Roadmap
 
-
-### Built With
-<a href="https://developer.mozilla.org/es/docs/Web/HTML">
-  <img src="https://cdn.svgporn.com/logos/html-5.svg" width="50" alt="html5" title="html5">
-</a>
-
-<a href="https://developer.mozilla.org/es/docs/Web/CSS">
-  <img src="https://cdn.svgporn.com/logos/css-3.svg" width="50" alt="css3" title="css3">
-</a>
-
-<a href="https://developer.mozilla.org/es/docs/Web/javascript">
-  <img src="https://cdn.svgporn.com/logos/javascript.svg" width="50" alt="javascript" title="javascript">
-</a>
-
-<a href="https://michalsnik.github.io/aos/">
-  <img src="https://raw.githubusercontent.com/darideveloper/darideveloper/main/imgs/aos.svg" width="80" alt="aos" title="aos">
-</a>
-
-<a href="https://sweetalert2.github.io/">
-  <img src="https://github.com/sweetalert2/sweetalert2/raw/main/assets/swal2-logo.png" width="100" alt="SweetAlert2" title="SweetAlert2">
-</a>
-
-<a href="https://sass-lang.com/">
-  <img src="https://cdn.svgporn.com/logos/sass.svg" width="50" alt="sass" title="sass">
-</a>
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Desktop
-- [x] Mobile
-- [x] Animations
-- [x] Contact form
+- [x] Desktop\r
+- [x] Mobile\r
+- [x] Animations\r
+- [x] Contact form\r
 - [x] Client's domain
 
 
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Dari Developer - darideveloper@gmail.com
-
-Project Link: [https://github.com/darideveloper/Nayipzi-Gutierrez-Broker](https://github.com/darideveloper/Nayipzi-Gutierrez-Broker)
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[license-shield]: https://img.shields.io/github/license/darideveloper/Nayipzi-Gutierrez-Broker.svg?style=for-the-badge
-[license-url]: https://github.com/darideveloper/Nayipzi-Gutierrez-Broker/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/francisco-dari-hernandez-6456b6181
-[product-screenshot-desktop]: imgs/screenshot-desktop.gif
-[product-screenshot-mobile]: imgs/screenshot-mobile.gif
-[gmail-shield]: https://img.shields.io/badge/-gmail-black.svg?style=for-the-badge&logo=gmail&colorB=555&logoColor=white
-[fiverr-shield]: https://img.shields.io/badge/-fiverr-black.svg?style=for-the-badge&logo=fiverr&colorB=555&logoColor=white
-[gmail-url]: mailto:darideveloper@gmail.com
-[fiverr-url]: https://www.fiverr.com/darideveloper
-
-<span>Last code update: <time datetime="2022-09-14" class="last-update">2022-09-14</time>
