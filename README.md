@@ -1,5 +1,5 @@
-<div><a href='https://github.com/github.com/darideveloper/blob/master/LICENSE' target='_blank'>
-            <img src='https://img.shields.io/github/license/github.com/darideveloper.svg?style=for-the-badge' alt='MIT License' height='30px'/>
+<div><a href='https://github.com/darideveloper/Nayipzi-Gutierrez-Broker/blob/master/LICENSE' target='_blank'>
+            <img src='https://img.shields.io/github/license/darideveloper/Nayipzi-Gutierrez-Broker.svg?style=for-the-badge' alt='MIT License' height='30px'/>
         </a><a href='https://www.linkedin.com/in/francisco-dari-hernandez-6456b6181/' target='_blank'>
                 <img src='https://img.shields.io/static/v1?style=for-the-badge&message=LinkedIn&color=0A66C2&logo=LinkedIn&logoColor=FFFFFF&label=' alt='Linkedin' height='30px'/>
             </a><a href='https://t.me/darideveloper' target='_blank'>
@@ -20,11 +20,7 @@ Visit at: **[excellencerealtygroup.miami](https://www.excellencerealtygroup.miam
 
 Landing page with contact forms an animations, based in the design of [Mahmudul Manik](https://www.behance.net/gallery/105051993/Edge_One-landing-page?tracking_source=search_projects%7Clanding%20page%20)
 
-Start date: **2022-09-11**
-
-Last update: **2023-05-10**
-
-Project type: **client's project**
+Project type: **client**
 
 </div><br><details>
             <summary>Table of Contents</summary>
@@ -56,5 +52,4 @@ Landing page to promote Nayipzi's work (Real Estate Agent), with responsive, con
 - [x] Animations
 - [x] Contact form
 - [x] Client's domain
-
 
